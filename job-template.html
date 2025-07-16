@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{JOB_TITLE}}</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background: #f4f4f4; }
+    h1 { color: #c00; }
+    .job-box { background: white; padding: 20px; border-radius: 8px; }
+    a.button { display: inline-block; margin-top: 10px; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; }
+    a.button:hover { background: #0056b3; }
+  </style>
+</head>
+<body>
+  <div class="job-box">
+    <h1>{{JOB_TITLE}}</h1>
+    <p><strong>Last Date:</strong> {{LAST_DATE}}</p>
+    <p><strong>Description:</strong></p>
+    <p>{{DESCRIPTION}}</p>
+    <p>
+      <a class="button" href="{{APPLY_LINK}}" target="_blank">Apply Online</a>
+      <a class="button" href="{{PDF_LINK}}" target="_blank">Download Notification</a>
+    </p>
+  </div>
+</body>
+</html>
